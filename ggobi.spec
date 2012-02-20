@@ -2,7 +2,7 @@
 
 Name:		ggobi
 Version:	2.1.9
-Release:	1
+Release:	2
 License:	Common Public License
 Group:		Graphics
 Summary:	Interactive and dynamic graphics
@@ -39,7 +39,8 @@ GGobi is fully documented in the GGobi book:
 #-----------------------------------------------------------------------
 %package	devel
 Summary:	Open source visualization for exploring high-dimensional data
-Group:		Development/C   
+Group:		Development/C
+Requires:	%{name} = %{EVRD}
 
 %description	devel
 GGobi development files.
