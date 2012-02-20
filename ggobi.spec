@@ -12,6 +12,7 @@ Source1:	ggobi.desktop
 BuildRequires:  desktop-file-utils
 BuildRequires:	gtk2-devel     
 BuildRequires:  libxml2-devel
+BuildRequires:	libtool-devel
 Patch0:		ggobi-2.1.9-format.patch
 Patch1:		ggobi-2.1.9-underlink.patch
 Patch2:		ggobi-2.1.9-graphviz.patch
