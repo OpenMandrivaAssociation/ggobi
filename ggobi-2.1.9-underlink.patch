@@ -1,0 +1,22 @@
+--- ggobi-2.1.9/src/Makefile.am.orig	2012-02-19 23:54:26.313552070 -0200
++++ ggobi-2.1.9/src/Makefile.am	2012-02-19 23:54:33.816579573 -0200
+@@ -4,7 +4,7 @@ libggobi_la_GOBSOURCES = $(libggobi_la_G
+ libggobi_la_GOBHEADERS = $(libggobi_la_GOBS:%.gob=ggobi-%.h)
+ libggobi_la_GOBOBJECTS = $(libggobi_la_GOBS:%.gob=ggobi-%.lo)
+ libggobi_la_GOBSTAMPS = $(libggobi_la_GOBS:%.gob=.%.gob.stamp)
+-libggobi_la_LDFLAGS  = @GTK_LIBS@ @LIBXML_LIBS@
++libggobi_la_LDFLAGS  = @GTK_LIBS@ @LIBXML_LIBS@ -lm
+ libggobi_la_BUILT = array.c ash1d.c barchart.c barchartClass.c \
+   barchart_ui.c brush.c brush_api.c brush_bins.c brush_init.c brush_link.c \
+   brush_ui.c color.c color_ui.c cpanel.c display.c display_tree.c display_ui.c \
+--- ggobi-2.1.9/src/Makefile.in.orig	2012-02-19 23:58:12.739381874 -0200
++++ ggobi-2.1.9/src/Makefile.in	2012-02-19 23:58:30.881448348 -0200
+@@ -294,7 +294,7 @@ libggobi_la_GOBSOURCES = $(libggobi_la_G
+ libggobi_la_GOBHEADERS = $(libggobi_la_GOBS:%.gob=ggobi-%.h)
+ libggobi_la_GOBOBJECTS = $(libggobi_la_GOBS:%.gob=ggobi-%.lo)
+ libggobi_la_GOBSTAMPS = $(libggobi_la_GOBS:%.gob=.%.gob.stamp)
+-libggobi_la_LDFLAGS = @GTK_LIBS@ @LIBXML_LIBS@ $(am__append_2)
++libggobi_la_LDFLAGS = @GTK_LIBS@ @LIBXML_LIBS@ -lm $(am__append_2)
+ libggobi_la_BUILT = array.c ash1d.c barchart.c barchartClass.c \
+   barchart_ui.c brush.c brush_api.c brush_bins.c brush_init.c brush_link.c \
+   brush_ui.c color.c color_ui.c cpanel.c display.c display_tree.c display_ui.c \
