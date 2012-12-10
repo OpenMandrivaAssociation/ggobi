@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GGobi
+GenericName=GGobi
+Comment=Multivariate interactive graphics for exploratory data analysis
+Categories=Astronomy;Science;Education;
+Icon=ggobi
+Exec=ggobi
+Terminal=false
+Type=Application

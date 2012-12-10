@@ -2,7 +2,7 @@
 
 Name:		ggobi
 Version:	2.1.9
-Release:	2
+Release:	3
 License:	Common Public License
 Group:		Graphics
 Summary:	Interactive and dynamic graphics
@@ -71,3 +71,15 @@ desktop-file-install					\
     --vendor mandriva					\
     --dir %{buildroot}%{_datadir}/applications		\
     %{SOURCE1}
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1.9-2
++ Revision: 777694
+- Rebuild with proper dependency generation.
+
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1.9-1
++ Revision: 777666
+- Import ggobi (partly based on fedora ggobi package)
+- Import ggobi
+
