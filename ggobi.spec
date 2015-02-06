@@ -2,7 +2,7 @@
 
 Name:		ggobi
 Version:	2.1.9
-Release:	3
+Release:	4
 License:	Common Public License
 Group:		Graphics
 Summary:	Interactive and dynamic graphics
