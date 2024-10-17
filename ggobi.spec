@@ -6,7 +6,7 @@ Release:	4
 License:	Common Public License
 Group:		Graphics
 Summary:	Interactive and dynamic graphics
-URL:		http://www.ggobi.org
+URL:		https://www.ggobi.org
 Source0:	http://www.ggobi.org/downloads/%{name}-%{version}.tar.bz2
 Source1:	ggobi.desktop
 BuildRequires:  desktop-file-utils
